@@ -31,7 +31,7 @@ if __name__=='__main__':
 	op.append(op2)
 	op.append(op3)
 	op.append(op4)
-	report_directory = Config.REPORTS
+	report_directory = "./reports"
 	report_file_name = 'report.md'
 	def write_report_to_file(reports_dir, report_file_name, op):
 	
