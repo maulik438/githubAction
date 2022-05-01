@@ -14,7 +14,7 @@ def division(a,b):
 	
 	
 if __name__=='__main__':
-	a,b=20,2
+	a,b=10,2
 	print(addition(a,b))
 	print(substraction(a,b))
 	print(multiplication(a,b))
