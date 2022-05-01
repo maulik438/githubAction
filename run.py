@@ -15,8 +15,8 @@ def division(a,b):
 def write_report_to_file(reports_dir, report_file_name, op):
     report_file_path = os.path.join(reports_dir, report_file_name)
     with open(report_file_path, 'a') as f:
-		for ops in op:
-        f.write(ops)
+	for ops in op:
+            f.write(ops)
 	
 	
 if __name__=='__main__':
